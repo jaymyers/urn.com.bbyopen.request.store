@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book>
+		<id>book:urn:com:bbyopen:request:store</id>
+		<title>BBY Open V2 Request Storer</title>
+		<desc>Module to store captured events and requests in a data store</desc>
+		<toc>
+			<item id="urn:com:bbyopen:request:store:guide"/>
+			
+		</toc>
+	</book>
+</books>

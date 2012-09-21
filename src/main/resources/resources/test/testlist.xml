@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testlist>
+
+	<!--Add your tests here-->
+	<test name="Request store resolution test">
+		<request>
+			<identifier>active:requestStore</identifier>
+			<argument name="url">http://www.beweep.com</argument>
+			<representation>java.lang.String</representation>
+		</request>
+		<assert>
+			<stringEquals>http://www.beweep.com</stringEquals>
+		</assert>
+	</test>
+		
+</testlist>

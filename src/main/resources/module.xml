@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="2.0">
+   <meta>
+      <identity>
+         <uri>urn:com:bbyopen:request:store</uri>
+         <version>1.0.0</version>
+      </identity>
+      <info>
+         <name>BBY Open V2 Request Storer</name>
+         <description>Module to store captured events and requests in a data store</description>
+         <icon>res:/BBY_Open_V2_Request_Storer/pub/icon.png</icon>
+      </info>
+   </meta>
+   <system>
+      <dynamic/>
+   </system>
+   <rootspace name="BBY Open V2 Request Storer - Development Space" uri="urn:com:bbyopen:request:store">
+      <endpoint>
+      	<grammar>
+      		<active>
+      			<identifier>active:requestStore</identifier>
+      			<argument name="url"/>
+      		</active>
+      	</grammar>
+      	<class>com.bbyopen.request.store.RequestStore</class>
+      </endpoint>
+   </rootspace>
+</module>
