@@ -3,7 +3,7 @@
    <meta>
       <identity>
          <uri>urn:com:bbyopen:request:store</uri>
-         <version>1.0.0</version>
+         <version>1.0.1</version>
       </identity>
       <info>
          <name>BBY Open V2 Request Storer</name>
@@ -19,10 +19,13 @@
       	<grammar>
       		<active>
       			<identifier>active:requestStore</identifier>
-      			<argument name="url"/>
+      			<argument name="data"  />
       		</active>
       	</grammar>
       	<class>com.bbyopen.request.store.RequestStore</class>
       </endpoint>
+      <import>
+			<uri>urn:com:bbyopen:mongodb</uri>
+		</import>
    </rootspace>
 </module>
